@@ -1,6 +1,6 @@
 {
   "name": "grades.no NTNU linker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically add a link from NTNU subject site to grades.no gradestats",
   "content_scripts":[
     {
