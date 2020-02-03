@@ -1,7 +1,7 @@
 {
   "name": "grades.no NTNU linker",
-  "version": "1.0.0",
-  "description": "Automatically adds a link from NTNU subject site to grades.no grade stats",
+  "version": "1.0.1",
+  "description": "Automatically add a link from NTNU subject site to grades.no gradestats",
   "content_scripts":[
     {
       "matches": ["https://www.ntnu.no/studier/emner/*", "https://www.ntnu.edu/studies/courses/*"],
@@ -9,5 +9,9 @@
     }
 
   ],
+  "icons":{
+    "128":"link-icon.png"
+
+},
   "manifest_version": 2
 }

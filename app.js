@@ -2,7 +2,7 @@ const courseName = $("#course-details").attr("data-coursecode");
 const courseTitleJQueryElement = $("#course-details").children("h1").first();
 
 const title = courseTitleJQueryElement.html();
-courseTitleJQueryElement.html("<a target=\"_blank\" href=\"https://www.grades.no/course/" + courseName + "/\">" + title + "</a>");
+courseTitleJQueryElement.html("<a target=\"_blank\" href=\"https://grades.no/course/" + courseName + "/\">" + title + "</a>");
 
 
 /*
